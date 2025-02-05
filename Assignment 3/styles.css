@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    line-height: 1.6rem;
+
+}
+
+body {
+    font-family: "Lato", 'Lucida', Tahoma, Geneva, Verdana, sans-serif;
+    border: 15px solid #e5e7eb;
+    background-color: #a7a8cd;
+    height: 100vh;
+
+}
+
+img {
+    display: block;
+    width: 100%;
+    overflow: hidden;
+    max-height: 350px;
+}
+
+.container {
+    width: 80%;
+    max-width: 700px;
+    margin: 50px auto;
+    position: relative;
+}
+
+.absolute {
+    position: absolute;
+    background-color: #fdf1b5;
+    font-weight: 900;
+    padding: 5px 20px 5px 15px;
+    border-radius: 5px 20px 20px 5px;
+    left: -10px;
+    top: 10px;
+    font-size: larger;
+    width: auto;
+}
+
+.banner img {
+    border-radius: 10px 10px 0 0;
+    box-shadow: 0 0 10px black;
+}
+
+.bannerDetails {
+    background-color: #ffffff;
+    border-radius: 0 0 10px 10px;
+    padding: 25px;
+    box-shadow: 0 0 10px black;
+    font-size: 14px;
+}
+
+.bannerDetails h2 {
+    margin-bottom: 15px;
+    font-size: 16px;
+}
+
+span {
+    font-weight: normal;
+    font-size: small;
+}

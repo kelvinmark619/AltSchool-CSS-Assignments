@@ -1,0 +1,72 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    line-height: 1.6rem;
+}
+
+* {
+    background-color: #121212;
+}
+
+img {
+    display: block;
+    width: 100%;
+}
+
+.container {
+    border: solid #e5e7eb;
+    width: 80%;
+    max-width: 760px;
+    margin: 0 auto;
+    margin-top: 100px;
+    border-width: 5px 5px 15px;
+    padding: 50px;
+}
+
+.white-con {
+    position: relative;
+    width: 50%;
+    background-color: #ffffff;
+    padding: 60px 5% 20px;
+    border-radius: 5px;
+}
+
+.pink-con {
+    position: absolute;
+    background-color: #ff0095;
+    padding: 15px 10px;
+    left: 50%;
+    transform: translate(-50%);
+    width: 80%;
+    text-align: center;
+    top: -10px;
+    margin-bottom: 5px;
+    border-radius: 2px;
+    font-weight: bold;
+    font-size: larger;
+}
+
+@media screen and (max-width: 768px) {
+    .white-con {
+        padding: 60px 5% 20px;
+        width: 70%;
+    }
+}
+
+@media screen and (max-width: 507px) {
+    .white-con {
+        padding: 80px 5% 20px;
+        width: 80%;
+    }
+}
+@media screen and (max-width: 340px) {
+    .white-con {
+        background-color: red;
+        padding: 110px 5% 20px;
+        width: 100%;
+    }
+}

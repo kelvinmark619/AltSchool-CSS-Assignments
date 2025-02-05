@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    line-height: 1.6rem;
+}
+
+body {
+    font-family: "Lato", 'Lucida', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+img {
+    display: block;
+    width: 100%;
+}
+
+header {
+    background-color: #FFFFFF;
+    border-bottom: 8px solid #999999;
+}
+
+.wrapper {
+    width: calc(100% - (264px * 2));
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+header p {
+    width: 60%;
+    max-width: 600px;
+    margin-bottom: 20px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+header p:last-child {
+    margin-bottom: 45px;
+}
+
+h1 {
+    padding-top: 96px;
+    margin-bottom: 45px;
+    font-weight: 800;
+    font-size: 32px;
+    line-height: 38.4px;
+}
+
+span {
+    color: #009966;
+    font-weight: 800;
+}
+
+main {
+    padding: 50px 0;
+    background-color: #666666;
+}
+
+.white-div {
+    width: calc(100% - (245px * 2));
+    background-color: #ffffff;
+    margin: 0 auto;
+    position: relative;
+    border-bottom: solid 8px #999999;
+    padding: 90px 20px 20px;
+    max-width: 1300px;
+}
+
+.absolute {
+    position: absolute;
+    top: 7px;
+    left: -7px;
+    background-color: #ffbf00;
+    padding: 15px 25px;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 28.8px;
+    border-bottom: 8px solid #CC9900;
+}
+
+.w2 {
+    width: 100%;
+}
+
+.w2 p {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.hp {
+    margin-top: 15px;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .wrapper {
+        width: calc(100% - (24px * 2));
+        letter-spacing: -.5%;
+    }
+
+    header p {
+        width: 55%;
+    }
+
+    .white-div {
+        width: 100%;
+        padding: 90px 0px 20px;
+    }
+
+    .absolute {
+        padding: 15px 32px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .wrapper {
+        width: calc(100% - (24px * 2));
+        letter-spacing: -.5%
+    }
+
+    header p {
+        width: 100%;
+    }
+
+    .white-div {
+        width: 100%;
+        padding: 120px 0px 20px;
+    }
+
+    .absolute {
+        padding: 15px 32px;
+        margin-right: 24px;
+    }
+}
